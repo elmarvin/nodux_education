@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nodux_education *.css
+recursive-include nodux_education *.csv
+recursive-include nodux_education *.html
+recursive-include nodux_education *.ico
+recursive-include nodux_education *.js
+recursive-include nodux_education *.json
+recursive-include nodux_education *.md
+recursive-include nodux_education *.png
+recursive-include nodux_education *.py
+recursive-include nodux_education *.svg
+recursive-include nodux_education *.txt
+recursive-exclude nodux_education *.pyc
